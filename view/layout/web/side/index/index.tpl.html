@@ -1,0 +1,10 @@
+<div class="well sidebar-nav">
+            <ul class="nav nav-list">
+              <li class="nav-header">新闻列表</li>
+              <li class="active"><a href="/">最新</a></li>
+              <?php foreach ($news as $n):?>
+              <li><a class="view_news" href="<?php echo $n['url']?>"><?php echo $n['title']?></a></li>
+              <?php endforeach ?>             
+              <li class="nav-header">Sidebar</li>              
+            </ul>
+</div><!--/.well -->

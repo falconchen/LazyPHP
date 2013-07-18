@@ -1,3 +1,4 @@
 <?php
-$GLOBALS['config']['site_name'] = 'LazyPHP3';
-$GLOBALS['config']['site_domain'] = 'lazyphp3.sinaapp.com';
+$GLOBALS['config']['site_name'] = 'FreeCB';
+$GLOBALS['config']['site_domain'] = 'freecb.sinaapp.com';
+$GLOBALS['config']['default_controller'] = 'index';
